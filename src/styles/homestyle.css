@@ -1,0 +1,72 @@
+.home-container {
+    background-color: #14243c;
+    height: 655px;
+}
+
+.banner {
+    background-position: center;
+    color: white;
+    display: flex;
+    margin: 0% 10% 0% 10%;  
+}
+
+.banner-text {
+    width: 56%;
+    word-wrap: normal;
+    margin: 5% 0% 8% 4%;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.banner-title em {
+    text-decoration: underline;
+    color:#04d1aa ;
+}
+
+.banner-intro {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1.7rem;
+}
+
+.banner-img{
+    width: 50%;
+}
+
+.banner-img img {
+    height: auto;
+    width: 100%;
+    margin: 0% 0 0 0;
+}
+
+.click {
+    color: black;
+    display: flex;
+    justify-content: flex-end;;
+}
+
+
+.home-btn {
+    background-color: #04d1aa;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-color: #01967b;
+    transition: border-color .3s ease,background-color .3s ease,box-shadow .3s ease;
+    padding: 14px 31px;
+    height: 56px;
+    border-radius: 16px;
+    @media (min-width: 768px) {
+        width: 60%;
+    }
+}
+
+.home-btn a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+

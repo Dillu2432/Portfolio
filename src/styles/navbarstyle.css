@@ -1,0 +1,111 @@
+/* Styles for .header-area */
+.header-area {
+  background: #13253a;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, .4);
+  font-family: Manrope,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+  padding: 10px 0px 0px 0px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 1.5rem;
+  background: #df686c;
+}
+
+/* Styles for .logo a */
+.logo a:hover, .logo-img:hover {
+  color: #facf0f;
+}
+
+/* Styles for .navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Styles for .nav */
+.nav {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.logo a {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #04d1aa;
+  text-decoration: none;
+}
+
+/* Styles for h4 elements */
+.nav-head {
+  padding: 0.2rem 1.5rem;
+  color: white;
+  margin-right: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Styles for .nav li */
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+/* Styles for .nav li a */
+.nav li h4 {
+  text-decoration: none;
+}
+
+/* Styles for .nav li a on hover */
+.nav li a:hover {
+  color: #facf0f;
+}
+
+
+.github, .linkdin, .instagram{
+  border: none;
+  background-color:#13253a;
+}
+
+.social-btn{
+  width: 35px;
+  border-radius:2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav li {
+    margin: 0 10px;
+  }
+
+  /* Adjustments for small screens */
+  .logo-container {
+    margin-left: 0;
+  }
+
+  .logo a {
+    font-size: 1.5rem;
+  }
+}
